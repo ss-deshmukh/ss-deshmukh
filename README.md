@@ -303,7 +303,7 @@ Designed robots for specific tasks: ring throwing, arrow shooting, stair climbin
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-E8E8E8?style=for-the-badge&logo=linkedin&logoColor=FFFFFF&labelColor=0D0D0D)](https://www.linkedin.com/in/ss-deshmukh/)
 
-**Professional Network**
+**Professional**
 
 </td>
 <td align="center" width="20%">
