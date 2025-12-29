@@ -283,11 +283,11 @@ Designed robots for specific tasks: ring throwing, arrow shooting, stair climbin
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=ss-deshmukh&show_icons=true&theme=dark&hide_border=true&bg_color=0D0D0D&title_color=E8E8E8&icon_color=E8E8E8&text_color=FFFFFF" width="49%" alt="GitHub Stats"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ss-deshmukh&theme=dark&hide_border=true&background=0D0D0D&ring=E8E8E8&fire=E8E8E8&currStreakLabel=E8E8E8&sideLabels=FFFFFF&dates=FFFFFF" width="49%" alt="GitHub Streak"/>
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ss-deshmukh&show_icons=true&hide_border=true&bg_color=0D0D0D&title_color=E8E8E8&icon_color=E8E8E8&text_color=E8E8E8&border_color=E8E8E8&count_private=true&include_all_commits=true)](https://github.com/ss-deshmukh)
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ss-deshmukh&layout=compact&theme=dark&hide_border=true&bg_color=0D0D0D&title_color=E8E8E8&text_color=FFFFFF" width="49%" alt="Top Languages"/>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ss-deshmukh&theme=github-compact&hide_border=true&bg_color=0D0D0D&color=E8E8E8&line=E8E8E8&point=FFFFFF" width="49%" alt="Activity Graph"/>
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ss-deshmukh&hide_border=true&background=0D0D0D&ring=E8E8E8&fire=E8E8E8&currStreakLabel=E8E8E8&sideLabels=E8E8E8&dates=E8E8E8&stroke=E8E8E8&currStreakNum=E8E8E8)](https://github.com/ss-deshmukh)
+
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ss-deshmukh&layout=compact&hide_border=true&bg_color=0D0D0D&title_color=E8E8E8&text_color=E8E8E8&border_color=E8E8E8&langs_count=8&exclude_repo=ss-deshmukh)](https://github.com/ss-deshmukh)
 
 </div>
 
