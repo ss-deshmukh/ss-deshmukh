@@ -339,28 +339,23 @@ Designed robots for specific tasks: ring throwing, arrow shooting, stair climbin
 
 <table>
 <tr>
-<td align="center" width="25%">
-
-**📧 EMAIL**
-
-[s.s.deshmukh00@gmail.com](mailto:s.s.deshmukh00@gmail.com)
 
 </td>
-<td align="center" width="25%">
+<td align="center" width="33%">
 
 **💬 TELEGRAM**
 
 [@ss_deshmukh](https://t.me/ss_deshmukh)
 
 </td>
-<td align="center" width="25%">
+<td align="center" width="33%">
 
 **⟠ ETHEREUM**
 
 @ss-deshmukh.base.eth
 
 </td>
-<td align="center" width="25%">
+<td align="center" width="33%">
 
 **⬢ POLKADOT**
 
