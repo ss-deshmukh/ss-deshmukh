@@ -346,14 +346,14 @@ Excludes Contributions & Commits via Organisation Emails
 
 **⟠ ETHEREUM**
 
-@ss-deshmukh.base.eth
+**@ss-deshmukh.base.eth**
 
 </td>
 <td align="center" width="40%">
 
 **⬢ POLKADOT**
 
-Sid: **15THqhf8XNDctK27fyHR3zacdtyRvSxjYxmtuPNgbz51eE4z**
+**15THqhf8XNDctK27fyHR3zacdtyRvSxjYxmtuPNgbz51eE4z**
 
 </td>
 </tr>
