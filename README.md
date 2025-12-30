@@ -57,9 +57,9 @@ VIT Pune | 2018-2022
 
 ---
 
-## ⬢ TECH ARSENAL
+## ⬢ TECH STACK
 
-<div align="center">
+<div align="left">
 
 ### Core Languages & Frameworks
 
@@ -111,7 +111,7 @@ Secure patient management platform with blockchain-backed security and Health ID
 
 **Stack:** Node.js, Python, MongoDB, AWS, React
 
-<div align="center">
+<div align="left">
 
 [![Website](https://img.shields.io/badge/Website-E8E8E8?style=for-the-badge&logo=google-chrome&logoColor=FFFFFF&labelColor=0D0D0D)](https://www.biochain.co.in/)
 [![GitHub](https://img.shields.io/badge/GitHub-E8E8E8?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=0D0D0D)](https://github.com/BioChain-Network)
@@ -130,7 +130,7 @@ Stunning 3D visualization platform for blockchain governance data. Experience go
 
 **Stack:** Three.js, Neo4j, Python, Pandas
 
-<div align="center">
+<div align="left">
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-E8E8E8?style=for-the-badge&logo=vercel&logoColor=FFFFFF&labelColor=0D0D0D)](https://open-vis-universe.vercel.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-E8E8E8?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=0D0D0D)](https://github.com/BioChain-Network)
@@ -148,7 +148,7 @@ Decentralized carbon trading platform using Plutus on Cardano. Guides ICT sector
 
 **Stack:** Plutus (Cardano), React, Smart Contracts
 
-<div align="center">
+<div align="left">
 
 [![Paper](https://img.shields.io/badge/White_Paper-E8E8E8?style=for-the-badge&logo=academia&logoColor=FFFFFF&labelColor=0D0D0D)](https://www.academia.edu/111230551/Net_Zero_Carbon_Campaign_Smart_Contract_For_Information_Communication_Technology_Sectors_to_Achieve_Net_Zero_Targets_Through_Science_Based_Target_Initiatives_Approached)
 [![GitHub](https://img.shields.io/badge/GitHub-E8E8E8?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=0D0D0D)](https://github.com/ss-deshmukh/Blockchain_Carbon_Credit_Project)
@@ -167,7 +167,7 @@ Bitcoin Talents Program POC for crypto wallet trust assessment. Real-time risk a
 
 **Stack:** Node.js, Python, PostgreSQL, MongoDB, AWS
 
-<div align="center">
+<div align="left">
 
 [![Website](https://img.shields.io/badge/Website-E8E8E8?style=for-the-badge&logo=google-chrome&logoColor=FFFFFF&labelColor=0D0D0D)](https://wycheck.my.canva.site/)
 [![GitHub](https://img.shields.io/badge/GitHub-E8E8E8?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=0D0D0D)](https://github.com/ss-deshmukh/bitcoin-transaction-analyser)
@@ -187,7 +187,7 @@ Affordable alternative to official GRE essay evaluation. Comprehensive analysis 
 
 **Stack:** Python, NLP, Machine Learning
 
-<div align="center">
+<div align="left">
 
 [![GitHub](https://img.shields.io/badge/GitHub-E8E8E8?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=0D0D0D)](https://github.com/ss-deshmukh/AI_Essay_Evaluator)
 [![Demo](https://img.shields.io/badge/Demo-E8E8E8?style=for-the-badge&logo=vimeo&logoColor=FFFFFF&labelColor=0D0D0D)](https://vimeo.com/995420426)
@@ -205,7 +205,7 @@ Modern PWA for newspaper subscription management in India. Real-time delivery tr
 
 **Stack:** React, Next.js, Leaflet, Tailwind CSS
 
-<div align="center">
+<div align="left">
 
 [![GitHub](https://img.shields.io/badge/GitHub-E8E8E8?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=0D0D0D)](https://github.com/ss-deshmukh/Paperwala-Newspaper-Delivery-App)
 
@@ -222,7 +222,7 @@ Automated suspension system for EVs using magnetorheological fluid. Adaptive dam
 
 **Stack:** Python, Matlab, Ansys, C++
 
-<div align="center">
+<div align="left">
 
 [![Paper](https://img.shields.io/badge/White_Paper-E8E8E8?style=for-the-badge&logo=academia&logoColor=FFFFFF&labelColor=0D0D0D)](https://www.academia.edu/112654969/Road_Surface_Modelling_for_Design_and_Analysis_of_Semi_Active_Suspension_System_Using_Magnetorheological_Fluid)
 [![Demo](https://img.shields.io/badge/Demo-E8E8E8?style=for-the-badge&logo=vimeo&logoColor=FFFFFF&labelColor=0D0D0D)](https://vimeo.com/995410009)
@@ -240,7 +240,7 @@ Designed robots for specific tasks: ring throwing, arrow shooting, stair climbin
 
 **Stack:** Python, C#
 
-<div align="center">
+<div align="left">
 
 [![Video](https://img.shields.io/badge/YouTube-E8E8E8?style=for-the-badge&logo=youtube&logoColor=FFFFFF&labelColor=0D0D0D)](https://www.youtube.com/watch?v=z-o9jvKev5A)
 
@@ -276,6 +276,8 @@ Designed robots for specific tasks: ring throwing, arrow shooting, stair climbin
 ---
 
 ## ⬢ GITHUB METRICS
+
+Excludes Contributions & Commits via Organisation Emails
 
 <div align="center">
 
@@ -340,26 +342,18 @@ Designed robots for specific tasks: ring throwing, arrow shooting, stair climbin
 <table>
 <tr>
 
-</td>
-<td align="center" width="33%">
-
-**💬 TELEGRAM**
-
-[@ss_deshmukh](https://t.me/ss_deshmukh)
-
-</td>
-<td align="center" width="33%">
+<td align="center" width="40%">
 
 **⟠ ETHEREUM**
 
 @ss-deshmukh.base.eth
 
 </td>
-<td align="center" width="33%">
+<td align="center" width="40%">
 
 **⬢ POLKADOT**
 
-On Chain Identity: [Sid](https://portfolio.subscan.io/account/15THqhf8XNDctK27fyHR3zacdtyRvSxjYxmtuPNgbz51eE4z)
+Sid: **15THqhf8XNDctK27fyHR3zacdtyRvSxjYxmtuPNgbz51eE4z**
 
 </td>
 </tr>
@@ -371,6 +365,6 @@ On Chain Identity: [Sid](https://portfolio.subscan.io/account/15THqhf8XNDctK27fy
 
 <div align="center">
 
-**LAST SYNC: 2025-12-30**
+**Last Sync: 30 Dec, 2025**
 
 </div>
