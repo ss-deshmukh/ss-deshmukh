@@ -35,15 +35,11 @@
 
 <div align="left">
 
-### Focus Areas
-
-<img src="https://img.shields.io/badge/Web3-E8E8E8?style=for-the-badge&logo=web3dotjs&logoColor=FFFFFF&labelColor=0D0D0D"/> <img src="https://img.shields.io/badge/Blockchain-E8E8E8?style=for-the-badge&logo=bitcoin&logoColor=FFFFFF&labelColor=0D0D0D"/> <img src="https://img.shields.io/badge/Product_Dev-E8E8E8?style=for-the-badge&logo=productboard&logoColor=FFFFFF&labelColor=0D0D0D"/>
-
 ### Expertise
 
-- **Engineering** → Backend + Data Analytics + Full-Stack
-- **Product** → User Research, UI/UX thinking, Agile, Scrum
-- **Blockchain** → Smart Contracts + Core Protocol
+- **Engineering** : Backend, Data Analytics, Full-Stack Web Apps
+- **Product** : User Research, UI/UX thinking, Agile & Scrum
+- **Blockchain** : Smart Contracts, Core Protocol
 
 ### Education
 
@@ -121,7 +117,7 @@ Secure patient management platform with blockchain-backed security and Health ID
 
 ---
 
-### 3D OpenGov Visualisation
+### Polkadot OpenGov - 3D Visualisation
 
 **Polkadot Governance Explorer**
 🗓️ Jan 2025 - Mar 2025
@@ -196,7 +192,7 @@ Affordable alternative to official GRE essay evaluation. Comprehensive analysis 
 
 ---
 
-### Paperwala PWA
+### Newspaper Delivery App - Paperwala
 
 **Newspaper Delivery Platform**
 🗓️ Nov 2021 - Dec 2021 | 🏆 **Microsoft FRT Hall of Fame**
@@ -213,7 +209,7 @@ Modern PWA for newspaper subscription management in India. Real-time delivery tr
 
 ---
 
-### Magnetorheological Suspension
+### Semi-Automatic Car Suspension System
 
 **B.Tech Final Year Project**
 🗓️ Jan 2021 - Jun 2021
@@ -231,7 +227,7 @@ Automated suspension system for EVs using magnetorheological fluid. Adaptive dam
 
 ---
 
-### Robocon Competition Robots
+### Crawler Robot for Robocon Competition
 
 **TRF VIT Robotics**
 🗓️ Sep 2019 - Feb 2020
@@ -365,6 +361,6 @@ Excludes Contributions & Commits via Organisation Emails
 
 <div align="center">
 
-**Last Sync: 30 Dec, 2025**
+**Last Sync: 30 Dec, 2022**
 
 </div>
