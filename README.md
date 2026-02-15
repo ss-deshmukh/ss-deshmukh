@@ -361,6 +361,6 @@ Excludes Contributions & Commits via Organisation Emails
 
 <div align="center">
 
-**Last Sync: 30 Dec, 2022**
+**Last Sync: 30 Dec, 2025**
 
 </div>
