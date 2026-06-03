@@ -110,3 +110,21 @@
 </table>
 
 ---
+
+## ⬢ GITHUB METRICS
+
+Excludes Contributions & Commits via Organisation Emails
+
+<div align="center">
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ss-deshmukh&theme=github_dark)
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ss-deshmukh&theme=github_dark" width="49%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ss-deshmukh&theme=github_dark&utcOffset=5" width="49%" />
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ss-deshmukh&theme=github_dark" width="49%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ss-deshmukh&theme=github_dark" width="49%" />
+
+</div>
+
+---
