@@ -128,3 +128,49 @@ Excludes Contributions & Commits via Organisation Emails
 </div>
 
 ---
+
+## ⬢ CONNECT
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="20%">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-E8E8E8?style=for-the-badge&logo=linkedin&logoColor=FFFFFF&labelColor=0D0D0D)](https://www.linkedin.com/in/ss-deshmukh/)
+
+**Professional**
+
+</td>
+<td align="center" width="20%">
+
+[![GitHub](https://img.shields.io/badge/GitHub-E8E8E8?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=0D0D0D)](https://github.com/ss-deshmukh)
+
+**Open Source**
+
+</td>
+<td align="center" width="20%">
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-E8E8E8?style=for-the-badge&logo=googlechrome&logoColor=FFFFFF&labelColor=0D0D0D)](https://ss-deshmukh.site)
+
+**Projects & Work**
+
+</td>
+<td align="center" width="20%">
+
+[![Topmate](https://img.shields.io/badge/Topmate-E8E8E8?style=for-the-badge&logo=googlemeet&logoColor=FFFFFF&labelColor=0D0D0D)](https://topmate.io/ss_deshmukh)
+
+**Book a Call**
+
+</td>
+<td align="center" width="20%">
+
+[![Telegram](https://img.shields.io/badge/Telegram-E8E8E8?style=for-the-badge&logo=telegram&logoColor=FFFFFF&labelColor=0D0D0D)](https://t.me/ss_deshmukh)
+
+**Direct Message**
+
+</td>
+</tr>
+</table>
+
+</div>
