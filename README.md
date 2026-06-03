@@ -16,3 +16,46 @@
 </div>
 
 ---
+
+## ⬢ STACK
+
+<div align="left">
+
+### Languages & Frameworks
+
+![Python](https://img.shields.io/badge/Python-7C3AED?style=for-the-badge&logo=python&logoColor=FFFFFF)
+![Rust](https://img.shields.io/badge/Rust-7C3AED?style=for-the-badge&logo=rust&logoColor=FFFFFF)
+![TypeScript](https://img.shields.io/badge/TypeScript-7C3AED?style=for-the-badge&logo=typescript&logoColor=FFFFFF)
+![JavaScript](https://img.shields.io/badge/JavaScript-7C3AED?style=for-the-badge&logo=javascript&logoColor=FFFFFF)
+![React](https://img.shields.io/badge/React-7C3AED?style=for-the-badge&logo=react&logoColor=FFFFFF)
+![Node.js](https://img.shields.io/badge/Node.js-7C3AED?style=for-the-badge&logo=nodedotjs&logoColor=FFFFFF)
+
+### Data & Automation
+
+![Pandas](https://img.shields.io/badge/Pandas-059669?style=for-the-badge&logo=pandas&logoColor=FFFFFF)
+![PySpark](https://img.shields.io/badge/PySpark-059669?style=for-the-badge&logo=apachespark&logoColor=FFFFFF)
+![dbt](https://img.shields.io/badge/dbt-059669?style=for-the-badge&logo=dbt&logoColor=FFFFFF)
+![Kafka](https://img.shields.io/badge/Kafka-059669?style=for-the-badge&logo=apachekafka&logoColor=FFFFFF)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-059669?style=for-the-badge&logo=rabbitmq&logoColor=FFFFFF)
+![UiPath](https://img.shields.io/badge/UiPath-059669?style=for-the-badge&logo=uipath&logoColor=FFFFFF)
+![Power Automate](https://img.shields.io/badge/Power_Automate-059669?style=for-the-badge&logo=powerautomate&logoColor=FFFFFF)
+
+### Blockchain & Web3
+
+![Ethereum](https://img.shields.io/badge/Ethereum-D97706?style=for-the-badge&logo=ethereum&logoColor=FFFFFF)
+![Polkadot](https://img.shields.io/badge/Polkadot-D97706?style=for-the-badge&logo=polkadot&logoColor=FFFFFF)
+![Cardano](https://img.shields.io/badge/Cardano-D97706?style=for-the-badge&logo=cardano&logoColor=FFFFFF)
+![Web3.js](https://img.shields.io/badge/Web3.js-D97706?style=for-the-badge&logo=web3dotjs&logoColor=FFFFFF)
+
+### Cloud & Infra
+
+![AWS](https://img.shields.io/badge/AWS-2563EB?style=for-the-badge&logo=amazonaws&logoColor=FFFFFF)
+![Azure](https://img.shields.io/badge/Azure-2563EB?style=for-the-badge&logo=microsoftazure&logoColor=FFFFFF)
+![Docker](https://img.shields.io/badge/Docker-2563EB?style=for-the-badge&logo=docker&logoColor=FFFFFF)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-2563EB?style=for-the-badge&logo=postgresql&logoColor=FFFFFF)
+![MongoDB](https://img.shields.io/badge/MongoDB-2563EB?style=for-the-badge&logo=mongodb&logoColor=FFFFFF)
+![GitHub](https://img.shields.io/badge/GitHub-2563EB?style=for-the-badge&logo=github&logoColor=FFFFFF)
+
+</div>
+
+---
