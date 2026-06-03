@@ -59,3 +59,54 @@
 </div>
 
 ---
+
+## ⬢ PROJECTS
+
+<table>
+<tr>
+<td><b>BioChain Healthcare Platform</b> &nbsp;<code>ACQUIRED</code><br><sub>Jul 2023 – Oct 2024</sub></td>
+<td>
+<a href="https://www.biochain.co.in/"><img src="https://img.shields.io/badge/Website-0D0D0D?style=flat-square&logo=googlechrome&logoColor=E8E8E8"/></a>
+<a href="https://github.com/BioChain-Network"><img src="https://img.shields.io/badge/GitHub-0D0D0D?style=flat-square&logo=github&logoColor=E8E8E8"/></a>
+<a href="https://vimeo.com/1023159273"><img src="https://img.shields.io/badge/Demo-0D0D0D?style=flat-square&logo=vimeo&logoColor=E8E8E8"/></a>
+</td>
+</tr>
+<tr>
+<td><b>Polkadot OpenGov 3D Visualisation</b><br><sub>Jan – Mar 2025</sub></td>
+<td>
+<a href="https://open-vis-universe.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-0D0D0D?style=flat-square&logo=vercel&logoColor=E8E8E8"/></a>
+<a href="https://github.com/BioChain-Network"><img src="https://img.shields.io/badge/GitHub-0D0D0D?style=flat-square&logo=github&logoColor=E8E8E8"/></a>
+</td>
+</tr>
+<tr>
+<td><b>Carbon Credit Exchange</b><br><sub>Jan – Mar 2023</sub></td>
+<td>
+<a href="https://www.academia.edu/111230551/Net_Zero_Carbon_Campaign_Smart_Contract_For_Information_Communication_Technology_Sectors_to_Achieve_Net_Zero_Targets_Through_Science_Based_Target_Initiatives_Approached"><img src="https://img.shields.io/badge/Paper-0D0D0D?style=flat-square&logo=academia&logoColor=E8E8E8"/></a>
+<a href="https://github.com/ss-deshmukh/Blockchain_Carbon_Credit_Project"><img src="https://img.shields.io/badge/GitHub-0D0D0D?style=flat-square&logo=github&logoColor=E8E8E8"/></a>
+<a href="https://vimeo.com/995458619"><img src="https://img.shields.io/badge/Demo-0D0D0D?style=flat-square&logo=vimeo&logoColor=E8E8E8"/></a>
+</td>
+</tr>
+<tr>
+<td><b>Wycheck Identity Tool</b><br><sub>Mar – May 2024</sub></td>
+<td>
+<a href="https://wycheck.my.canva.site/"><img src="https://img.shields.io/badge/Website-0D0D0D?style=flat-square&logo=googlechrome&logoColor=E8E8E8"/></a>
+<a href="https://github.com/ss-deshmukh/bitcoin-transaction-analyser"><img src="https://img.shields.io/badge/GitHub-0D0D0D?style=flat-square&logo=github&logoColor=E8E8E8"/></a>
+<a href="https://vimeo.com/1000015745"><img src="https://img.shields.io/badge/Demo-0D0D0D?style=flat-square&logo=vimeo&logoColor=E8E8E8"/></a>
+</td>
+</tr>
+<tr>
+<td><b>AI Essay Evaluator</b><br><sub>Mar – Apr 2024</sub></td>
+<td>
+<a href="https://github.com/ss-deshmukh/AI_Essay_Evaluator"><img src="https://img.shields.io/badge/GitHub-0D0D0D?style=flat-square&logo=github&logoColor=E8E8E8"/></a>
+<a href="https://vimeo.com/995420426"><img src="https://img.shields.io/badge/Demo-0D0D0D?style=flat-square&logo=vimeo&logoColor=E8E8E8"/></a>
+</td>
+</tr>
+<tr>
+<td><b>Paperwala — Newspaper Delivery App</b> &nbsp;<code>Microsoft FRT Hall of Fame</code><br><sub>Nov – Dec 2021</sub></td>
+<td>
+<a href="https://github.com/ss-deshmukh/Paperwala-Newspaper-Delivery-App"><img src="https://img.shields.io/badge/GitHub-0D0D0D?style=flat-square&logo=github&logoColor=E8E8E8"/></a>
+</td>
+</tr>
+</table>
+
+---
