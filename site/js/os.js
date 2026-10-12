@@ -34,7 +34,7 @@ export function createOS() {
     }
     for (const [id, win] of windows) win.classList.toggle("focused", id === focused);
     appName.textContent = focused ? windows.get(focused).dataset.title : "";
-    document.title = focused ? `${windows.get(focused).dataset.title} · Siddhesh Deshmukh` : "Siddhesh Deshmukh — Software Engineer";
+    document.title = focused ? `${windows.get(focused).dataset.title} · Siddhesh Deshmukh` : "Siddhesh Deshmukh - Software Engineer";
   }
 
   function topWindow() {
