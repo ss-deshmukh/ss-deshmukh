@@ -1,0 +1,22 @@
+{
+  "splat": {
+    "url": "assets/world/world.spz",
+    "urlLowRes": "assets/world/world-lowres.spz",
+    "position": [0, 0, 0],
+    "quaternion": [0, 0, 0, 1]
+  },
+  "camera": {
+    "position": [0, 0, 0],
+    "yaw": 0,
+    "yawPortrait": -0.28,
+    "pitch": 0,
+    "fov": 60
+  },
+  "monitors": [
+    { "id": "about", "label": "About", "position": [-1.2662, 0.6123, -0.0143], "quaternion": [0.033, 0.9396, -0.0316, 0.3393], "width": 0.9724, "height": 0.5183 },
+    { "id": "stack", "label": "Stack", "position": [0.6776, -0.0109, -2.7069], "quaternion": [-0.0513, -0.282, -0.0146, 0.9579], "width": 0.3618, "height": 0.237 },
+    { "id": "contact", "label": "Contact", "position": [0.9538, -0.0136, -2.46], "quaternion": [0.0008, -0.5043, -0.0034, 0.8635], "width": 0.3948, "height": 0.2344 },
+    { "id": "experience", "label": "Experience", "position": [0.6784, -0.1184, 0.0772], "quaternion": [-0.0081, -0.811, -0.0126, 0.5848], "width": 0.316, "height": 0.2016 },
+    { "id": "projects", "label": "Projects", "position": [0.5521, -0.1171, 0.434], "quaternion": [0.0111, -0.8109, 0.02, 0.5847], "width": 0.3793, "height": 0.2073 }
+  ]
+}

@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Siddhesh Deshmukh — Software Engineer</title>
+  <meta name="description" content="Siddhesh Deshmukh is a software engineer specialised in data engineering and distributed networks. Lead Software Engineer at Pala Labs, co-founder of BioChain and Palkhi Yatra.">
+  <meta name="theme-color" content="#070b12">
+  <link rel="canonical" href="https://ss-deshmukh.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ss-deshmukh.com/">
+  <meta property="og:title" content="Siddhesh Deshmukh — Software Engineer">
+  <meta property="og:description" content="Data engineering, distributed networks and blockchain. Step into the study and open a screen.">
+  <meta property="og:image" content="https://ss-deshmukh.com/assets/world/poster.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="assets/img/logo.png">
+  <link rel="preload" as="image" href="assets/world/poster.jpg">
+  <link rel="stylesheet" href="css/room.css">
+  <link rel="stylesheet" href="css/os.css">
+  <script>document.documentElement.className = "js";</script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Siddhesh Deshmukh",
+      "url": "https://ss-deshmukh.com/",
+      "jobTitle": "Lead Software Engineer",
+      "worksFor": { "@type": "Organization", "name": "Pala Labs" },
+      "sameAs": [
+        "https://www.linkedin.com/in/ss-deshmukh/",
+        "https://github.com/ss-deshmukh",
+        "https://topmate.io/ss_deshmukh"
+      ]
+    }
+  </script>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/",
+        "@sparkjsdev/spark": "https://cdn.jsdelivr.net/npm/@sparkjsdev/spark@2.3.1/dist/spark.module.min.js"
+      }
+    }
+  </script>
+</head>
+<body data-mode="loading">
+  <svg class="sprite" aria-hidden="true">
+    <symbol id="i-about" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 4-6 8-6s8 2 8 6"/></symbol>
+    <symbol id="i-experience" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18"/></symbol>
+    <symbol id="i-projects" viewBox="0 0 24 24"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></symbol>
+    <symbol id="i-stack" viewBox="0 0 24 24"><path d="m12 3-9 5 9 5 9-5-9-5zM3 12l9 5 9-5M3 16l9 5 9-5"/></symbol>
+    <symbol id="i-education" viewBox="0 0 24 24"><path d="m2 9 10-5 10 5-10 5L2 9zM6 11.5V16c0 1.5 3 3 6 3s6-1.5 6-3v-4.5M22 9v6"/></symbol>
+    <symbol id="i-palkhi-yatra" viewBox="0 0 24 24"><path d="M12 20s-7-4.5-9-9a5 5 0 0 1 9-3 5 5 0 0 1 9 3c-2 4.5-9 9-9 9z"/></symbol>
+    <symbol id="i-services" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></symbol>
+    <symbol id="i-writing" viewBox="0 0 24 24"><path d="M12 6c-2-1.5-5-2-8-2v14c3 0 6 .5 8 2 2-1.5 5-2 8-2V4c-3 0-6 .5-8 2zM12 6v14"/></symbol>
+    <symbol id="i-contact" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+    <symbol id="i-out" viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></symbol>
+  </svg>
+
+  <div id="backdrop" aria-hidden="true"></div>
+  <canvas id="room" aria-hidden="true"></canvas>
+
+  <header id="hud">
+    <div class="hud-brand">
+      <strong>Siddhesh Deshmukh</strong>
+      <span>Software engineer · data &amp; distributed networks</span>
+    </div>
+    <details class="hud-menu">
+      <summary>Menu</summary>
+      <nav aria-label="Sections">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#stack">Stack</a>
+        <a href="#education">Education</a>
+        <a href="#palkhi-yatra">Palkhi Yatra</a>
+        <a href="#services">Services</a>
+        <a href="#writing">Writing</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </details>
+    <p class="hud-hint">Drag to look around · click a screen to open it</p>
+  </header>
+
+  <div id="loader" role="status">Loading world… <span id="loader-pct">0%</span></div>
+
+  <main id="os">
+    <div class="menubar">
+      <img src="assets/img/logo.png" alt="" width="20" height="20">
+      <strong>SSD-OS</strong>
+      <span id="os-app" aria-live="polite"></span>
+      <span class="spacer"></span>
+      <time id="os-clock"></time>
+      <a class="exit" href="#">Exit to room</a>
+    </div>
+
+    <div class="desktop">
+      <section class="window" id="app-about" data-app="about" data-title="About" tabindex="-1" aria-labelledby="t-about">
+        <header class="titlebar">
+          <button class="close" type="button" aria-label="Close About"></button>
+          <button class="zoom" type="button" aria-label="Maximise About"></button>
+          <h2 id="t-about">about.md</h2>
+        </header>
+        <div class="content">
+          <p class="eyebrow">Hello there, I'm Sid</p>
+          <h1>Siddhesh Deshmukh</h1>
+          <p class="lede">Software engineer specialised in data engineering and distributed networks. I build products that make complex systems more human.</p>
+          <p>Previously I worked in data at Microsoft and Principal Financial Group, then co-founded BioChain, built on Hyperledger and acquired in 2024. I'm currently building OpenShore, a data analytics platform for Polkadot Open Governance, at Pala Labs.</p>
+
+          <div class="stats">
+            <a href="#experience"><strong>1</strong><span>startup exit</span></a>
+            <a href="#palkhi-yatra"><strong>13,000+</strong><span>pilgrims fed</span></a>
+            <a href="#writing"><strong>1M</strong><span>novel views</span></a>
+          </div>
+
+          <h3>Key expertise</h3>
+          <div class="cards three">
+            <article class="card violet">
+              <h4>Engineering</h4>
+              <p>Backend and data engineer, creating server architecture and data pipelines. I've also built and led several full-stack web development projects.</p>
+            </article>
+            <article class="card emerald">
+              <h4>Product management</h4>
+              <p>Led cross-functional teams, conducted technical interviews, and collaborated with industry leaders to drive project success.</p>
+            </article>
+            <article class="card amber">
+              <h4>Blockchain focus</h4>
+              <p>Developed decentralised applications and smart contracts, contributing to the blockchain ecosystem through projects and research.</p>
+            </article>
+          </div>
+
+          <p class="actions">
+            <a class="button primary" href="#projects">See projects</a>
+            <a class="button" href="#experience">Experience</a>
+            <a class="button" href="#contact">Get in touch</a>
+          </p>
+        </div>
+      </section>
+
+      <section class="window" id="app-experience" data-app="experience" data-title="Experience" tabindex="-1" aria-labelledby="t-experience">
+        <header class="titlebar">
+          <button class="close" type="button" aria-label="Close Experience"></button>
+          <button class="zoom" type="button" aria-label="Maximise Experience"></button>
+          <h2 id="t-experience">experience.log</h2>
+        </header>
+        <div class="content">
+          <h1>Experience</h1>
+          <ol class="timeline">
+            <li class="current">
+              <h3>Lead Software Engineer <span>Pala Labs</span></h3>
+              <p class="meta">Jan 2024 – Present · Pune, India</p>
+              <ul>
+                <li>Building a blockchain explorer for OpenGov on Polkadot.</li>
+                <li>Working on product strategy and development.</li>
+                <li>Worked in operations for organising the JAM Tour 2025.</li>
+              </ul>
+            </li>
+            <li class="current">
+              <h3>Co-founder &amp; Director <span>Palkhi Yatra · non-profit</span></h3>
+              <p class="meta">Jul 2018 – Present · Pune, India</p>
+              <ul>
+                <li>The team has served food to more than 13,000 pilgrims since its inception.</li>
+                <li>Plan and run the annual Palkhi Yatra event every year since 2018.</li>
+                <li>Led a team of 10+ volunteers and raised $6,000 in donations.</li>
+              </ul>
+              <p><a href="#palkhi-yatra">Read the story</a></p>
+            </li>
+            <li>
+              <h3>Co-founder &amp; Lead Engineer <span>BioChain</span></h3>
+              <p class="meta">Sep 2023 – Jan 2025 · Pune, India</p>
+              <ul>
+                <li>A decentralised application that lets patients manage and share electronic medical records, coupled with an ERP web app for doctors to manage patient data and their practice.</li>
+                <li>Successful exit: technology acquired by Web3 startup Patientstory through DappRadar.</li>
+              </ul>
+            </li>
+            <li>
+              <h3>Data Engineer <span>Principal Financial Group</span></h3>
+              <p class="meta">Jul 2022 – Sep 2023 · Pune, India</p>
+              <ul>
+                <li>Developed Python scripts for streamlined ETL processes, integrating data from external sources via APIs.</li>
+                <li>Designed and optimised data pipelines using Informatica and AWS, with automated job flows for timely execution.</li>
+                <li>Deployed and maintained pipelines for data cleaning and extraction, supporting business decisions and analytics.</li>
+                <li>Improved ETL performance, cutting execution time and resolving data quality issues through data modelling.</li>
+                <li>Ran impact and in-depth data analysis for reporting, advising on product design and epic creation.</li>
+              </ul>
+            </li>
+            <li>
+              <h3>Intern <span>Principal Financial Group</span></h3>
+              <p class="meta">Jan 2022 – Jun 2022 · Pune, India</p>
+              <ul>
+                <li>Hands-on experience in AWS, Python, SQL, React, JavaScript, HTML and CSS; converted to a full-time offer.</li>
+                <li>Learned Informatica, Power BI and Selenium.</li>
+              </ul>
+            </li>
+            <li>
+              <h3>SDE Intern <span>Microsoft</span></h3>
+              <p class="meta">Jul 2021 – Jan 2022 · Bengaluru, India</p>
+              <ul>
+                <li>Learned cloud computing concepts and received first-hand Azure training.</li>
+                <li>Earned 186 badges and 44 digital trophies across 133 hours of learning modules.</li>
+                <li>Featured in the FRT Hall of Fame for <a href="#projects">Paperwala</a>, a subscription-based newspaper delivery app.</li>
+              </ul>
+            </li>
+            <li>
+              <h3>Product Engineer, Intern <span>Procurabl</span></h3>
+              <p class="meta">Sep 2021 – Dec 2021 · Pune, India</p>
+              <ul>
+                <li>Created and optimised the operations workflow, managing on-site visits and vendor relationships.</li>
+                <li>Built CRM and project management tools, an order tracking system and an internal order management platform.</li>
+                <li>Led the creation of the company website, managing the analytics and graphics teams.</li>
+              </ul>
+            </li>
+            <li>
+              <h3>Event Co-ordinator <span>United Nations ICT Office</span></h3>
+              <p class="meta">Jun 2021 – Aug 2021 · Pune, India</p>
+              <ul>
+                <li>Organised and co-ordinated UNYCC'21, the UN Young Change Makers Conclave on 21st-century workplace skills, held virtually.</li>
+                <li>Supported speakers and managed virtual session logistics.</li>
+              </ul>
+            </li>
+            <li>
+              <h3>Robotics Engineer <span>The Robotics Forum, VIT Pune</span></h3>
+              <p class="meta">Sep 2019 – Feb 2020 · Pune, India</p>
+              <ul>
+                <li>Built and tested robot mechanisms and designed how they integrate, for the Robocon competition.</li>
+                <li>Delivered within deadline and budget constraints while managing team members.</li>
+              </ul>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="window" id="app-projects" data-app="projects" data-title="Projects" tabindex="-1" aria-labelledby="t-projects">
+        <header class="titlebar">
+          <button class="close" type="button" aria-label="Close Projects"></button>
+          <button class="zoom" type="button" aria-label="Maximise Projects"></button>
+          <h2 id="t-projects">~/projects</h2>
+        </header>
+        <div class="content">
+          <h1>Projects</h1>
+          <p class="muted">Select a project to expand it.</p>
+          <div class="files">
+            <details class="project" open>
+              <summary><span class="name">3D OpenGov Visualisation</span><span class="when">Jan – Mar 2025</span></summary>
+              <div class="body">
+                <p>A 3D visualisation platform for exploring blockchain governance data, starting with Polkadot's OpenGov. Governance relationships are shown through cosmic metaphors, from planetary systems to solar arrangements.</p>
+                <ul class="chips"><li>Three.js</li><li>WebGL</li><li>JavaScript</li><li>Neo4j</li><li>Pandas</li></ul>
+                <p class="links">
+                  <a href="https://open-vis-universe.vercel.app/" target="_blank" rel="noopener">Live demo<svg><use href="#i-out"/></svg></a>
+                  <a href="https://github.com/BioChain-Network" target="_blank" rel="noopener">GitHub<svg><use href="#i-out"/></svg></a>
+                </p>
+              </div>
+            </details>
+
+            <details class="project">
+              <summary><span class="name">BioChain Healthcare Platform</span><span class="tag emerald">Acquired</span><span class="when">Jul 2023 – Oct 2024</span></summary>
+              <div class="body">
+                <p>BioChain's hospital information platform for doctors.</p>
+                <ul>
+                  <li>Verified patient records through Health ID integration, with blockchain-backed integrity and privacy.</li>
+                  <li>Appointment scheduling with real-time availability and automated confirmation.</li>
+                  <li>Consent-based sharing of complete patient histories.</li>
+                  <li>Built-in adherence to HIPAA and GDPR.</li>
+                  <li>Hybrid storage combining blockchain security with the efficiency of traditional databases.</li>
+                </ul>
+                <ul class="chips"><li>Node.js</li><li>Python</li><li>MongoDB</li><li>AWS EC2</li><li>React</li></ul>
+                <p class="links">
+                  <a class="video" href="https://vimeo.com/1023159273" data-embed="https://player.vimeo.com/video/1023159273?dnt=1&amp;autoplay=1" target="_blank" rel="noopener"><svg class="fill"><use href="#i-play"/></svg>Watch demo</a>
+                  <a href="https://www.biochain.co.in/" target="_blank" rel="noopener">Website<svg><use href="#i-out"/></svg></a>
+                  <a href="https://github.com/BioChain-Network" target="_blank" rel="noopener">GitHub<svg><use href="#i-out"/></svg></a>
+                </p>
+              </div>
+            </details>
+
+            <details class="project">
+              <summary><span class="name">Wycheck — Web3 Identity &amp; Risk Analysis</span><span class="tag blue">Proof of concept</span><span class="when">Mar – May 2024</span></summary>
+              <div class="body">
+                <p>Started as a proof of concept for the Bitcoin Talents Program and gained enough traction to become a product. Wycheck gives real-time trust assessments for crypto wallets, flagging high-risk transactions for individual users and compliance teams.</p>
+                <ul class="chips"><li>Node.js</li><li>Python</li><li>PostgreSQL</li><li>MongoDB</li><li>AWS EC2</li><li>Heroku</li><li>React</li></ul>
+                <p class="links">
+                  <a class="video" href="https://vimeo.com/1000015745" data-embed="https://player.vimeo.com/video/1000015745?dnt=1&amp;autoplay=1" target="_blank" rel="noopener"><svg class="fill"><use href="#i-play"/></svg>Watch demo</a>
+                  <a href="https://wycheck.my.canva.site/" target="_blank" rel="noopener">Website<svg><use href="#i-out"/></svg></a>
+                  <a href="https://github.com/ss-deshmukh/bitcoin-transaction-analyser" target="_blank" rel="noopener">GitHub<svg><use href="#i-out"/></svg></a>
+                </p>
+              </div>
+            </details>
+
+            <details class="project">
+              <summary><span class="name">AI Essay Evaluator</span><span class="when">Mar – Apr 2024</span></summary>
+              <div class="body">
+                <p>A web platform offering an affordable alternative to the official GRE essay evaluation service. Students submit essays and get instant feedback on structure, coherence, grammar and argument strength.</p>
+                <p class="links">
+                  <a class="video" href="https://vimeo.com/995420426" data-embed="https://player.vimeo.com/video/995420426?dnt=1&amp;autoplay=1" target="_blank" rel="noopener"><svg class="fill"><use href="#i-play"/></svg>Watch demo</a>
+                  <a href="https://github.com/ss-deshmukh/AI_Essay_Evaluator" target="_blank" rel="noopener">GitHub<svg><use href="#i-out"/></svg></a>
+                </p>
+              </div>
+            </details>
+
+            <details class="project">
+              <summary><span class="name">Decentralised Carbon Credit Exchange</span><span class="tag violet">MS thesis</span><span class="when">Jan – Mar 2023</span></summary>
+              <div class="body">
+                <p>Built with a global team as my master's thesis. A Cardano application written in Plutus that applies the Science Based Targets (SBTi) methodology to help ICT companies halve emissions by 2030 and reach net zero by 2050.</p>
+                <ul class="chips"><li>Plutus (Cardano)</li><li>React</li></ul>
+                <p class="links">
+                  <a class="video" href="https://vimeo.com/995458619" data-embed="https://player.vimeo.com/video/995458619?dnt=1&amp;autoplay=1" target="_blank" rel="noopener"><svg class="fill"><use href="#i-play"/></svg>Watch demo</a>
+                  <a href="https://www.academia.edu/111230551/Net_Zero_Carbon_Campaign_Smart_Contract_For_Information_Communication_Technology_Sectors_to_Achieve_Net_Zero_Targets_Through_Science_Based_Target_Initiatives_Approached" target="_blank" rel="noopener">White paper<svg><use href="#i-out"/></svg></a>
+                  <a href="https://github.com/ss-deshmukh/Blockchain_Carbon_Credit_Project" target="_blank" rel="noopener">GitHub<svg><use href="#i-out"/></svg></a>
+                </p>
+              </div>
+            </details>
+
+            <details class="project">
+              <summary><span class="name">Paperwala — Newspaper Delivery PWA</span><span class="tag amber">Microsoft FRT Hall of Fame</span><span class="when">Nov – Dec 2021</span></summary>
+              <div class="body">
+                <p>A progressive web app for subscribing to and managing newspaper deliveries in India, built for the Microsoft FRT internship. Includes subscriptions and payments, profile and address management, and live delivery tracking on a map with ETA.</p>
+                <ul class="chips"><li>React</li><li>Next.js</li><li>Tailwind CSS</li><li>React Leaflet</li><li>OpenStreetMap</li></ul>
+                <p class="links">
+                  <a href="https://github.com/ss-deshmukh/Paperwala-Newspaper-Delivery-App" target="_blank" rel="noopener">GitHub<svg><use href="#i-out"/></svg></a>
+                </p>
+              </div>
+            </details>
+
+            <details class="project">
+              <summary><span class="name">Magnetorheological Suspension System</span><span class="tag violet">B.Tech final project</span><span class="when">Jan – Jun 2021</span></summary>
+              <div class="body">
+                <p>A fluid equivalent of a spring suspension that senses the road ahead and changes its viscosity for the best damping, like a spring that can change its stiffness. Aimed at electric vehicles that already carry the compute and batteries to run it.</p>
+                <ul class="chips"><li>Python</li><li>Matlab</li><li>Ansys</li><li>C++</li></ul>
+                <p class="links">
+                  <a class="video" href="https://vimeo.com/995410009" data-embed="https://player.vimeo.com/video/995410009?dnt=1&amp;autoplay=1" target="_blank" rel="noopener"><svg class="fill"><use href="#i-play"/></svg>Watch demo</a>
+                  <a href="https://www.academia.edu/112654969/Road_Surface_Modelling_for_Design_and_Analysis_of_Semi_Active_Suspension_System_Using_Magnetorheological_Fluid" target="_blank" rel="noopener">White paper<svg><use href="#i-out"/></svg></a>
+                </p>
+              </div>
+            </details>
+
+            <details class="project">
+              <summary><span class="name">Robocon Robots — TRF, VIT</span><span class="when">Sep 2019 – Feb 2020</span></summary>
+              <div class="body">
+                <p>Robots built for the Robocon competition with The Robotics Forum, each designed for a task: throwing rings, shooting arrows at a target, climbing stairs.</p>
+                <ul class="chips"><li>Python</li><li>C#</li></ul>
+                <p class="links">
+                  <a class="video" href="https://www.youtube.com/watch?v=z-o9jvKev5A" data-embed="https://www.youtube-nocookie.com/embed/z-o9jvKev5A?autoplay=1" target="_blank" rel="noopener"><svg class="fill"><use href="#i-play"/></svg>Watch video</a>
+                </p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="window" id="app-stack" data-app="stack" data-title="Stack" tabindex="-1" aria-labelledby="t-stack">
+        <header class="titlebar">
+          <button class="close" type="button" aria-label="Close Stack"></button>
+          <button class="zoom" type="button" aria-label="Maximise Stack"></button>
+          <h2 id="t-stack">stack.json</h2>
+        </header>
+        <div class="content">
+          <h1>Tech stack</h1>
+          <p class="muted">My arsenal to solve problems.</p>
+          <dl class="stack">
+            <div class="violet"><dt>Languages &amp; frameworks</dt><dd><ul class="chips"><li>Python</li><li>Rust</li><li>TypeScript</li><li>JavaScript</li><li>React</li><li>Node.js</li><li>SQL</li></ul></dd></div>
+            <div class="emerald"><dt>Data &amp; automation</dt><dd><ul class="chips"><li>Pandas</li><li>PySpark</li><li>dbt</li><li>Kafka</li><li>RabbitMQ</li><li>Informatica</li><li>UiPath</li><li>Power Automate</li></ul></dd></div>
+            <div class="amber"><dt>Blockchain &amp; Web3</dt><dd><ul class="chips"><li>Polkadot</li><li>Ethereum</li><li>Cardano</li><li>Web3.js</li></ul></dd></div>
+            <div class="blue"><dt>Cloud &amp; infra</dt><dd><ul class="chips"><li>AWS</li><li>Azure</li><li>Heroku</li><li>Docker</li><li>PostgreSQL</li><li>MongoDB</li><li>GitHub</li></ul></dd></div>
+            <div><dt>Tools</dt><dd><ul class="chips"><li>Power BI</li><li>Postman</li><li>Figma</li><li>Canva</li><li>Jira</li><li>Notion</li></ul></dd></div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="window" id="app-education" data-app="education" data-title="Education" tabindex="-1" aria-labelledby="t-education">
+        <header class="titlebar">
+          <button class="close" type="button" aria-label="Close Education"></button>
+          <button class="zoom" type="button" aria-label="Maximise Education"></button>
+          <h2 id="t-education">education.txt</h2>
+        </header>
+        <div class="content">
+          <h1>Education</h1>
+          <div class="cards">
+            <article class="card violet">
+              <h4>MS, Blockchain Technology</h4>
+              <p class="meta">Universitat de Barcelona · Zigurat Institute of Technology<br>May 2022 – May 2023 · CGPA 9.5 (GPA 4.0)</p>
+              <ul class="chips"><li>Blockchain Architecture</li><li>Token &amp; Supply Economics</li><li>Decentralised Finance</li></ul>
+              <p><a href="#projects">Thesis project: Carbon Credit Exchange</a></p>
+            </article>
+            <article class="card blue">
+              <h4>B.Tech, Mechanical Engineering</h4>
+              <p class="meta">Pune University (SPPU) · Vishwakarma Institute of Technology<br>Aug 2018 – Jul 2022 · CGPA 7.9 (GPA 3.4)</p>
+              <ul class="chips"><li>Programming (Robotics)</li><li>Engineering Design &amp; Innovation</li><li>Behavioural Science</li><li>Project Management</li></ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="window" id="app-palkhi-yatra" data-app="palkhi-yatra" data-title="Palkhi Yatra" tabindex="-1" aria-labelledby="t-palkhi-yatra">
+        <header class="titlebar">
+          <button class="close" type="button" aria-label="Close Palkhi Yatra"></button>
+          <button class="zoom" type="button" aria-label="Maximise Palkhi Yatra"></button>
+          <h2 id="t-palkhi-yatra">palkhi-yatra.org</h2>
+        </header>
+        <div class="content">
+          <p class="eyebrow">Non-profit · since 2018</p>
+          <h1>Palkhi Yatra</h1>
+          <div class="stats">
+            <div><strong>13,000</strong><span>people served</span></div>
+            <div><strong>₹5,00,000</strong><span>raised (about $6,000)</span></div>
+            <div><strong>10+</strong><span>volunteers</span></div>
+          </div>
+          <p>I started Palkhi Yatra to continue my father's standalone effort to provide food to the pilgrims of the Pandharpur Waari. From the very beginning, our goal has been to offer food during the most challenging stretches of their journey.</p>
+          <p>The Waari is not just a pilgrimage for me; it is a festival I have watched and cherished since childhood. Seeing the lack of organisation, the food waste, and the illness spread by food poisoning among pilgrims left me feeling helpless in my younger years.</p>
+          <p>In 2018 I resolved to tackle these problems head-on, bringing together people who shared the same goal to properly manage the food supply and ensure a healthy journey for the pilgrims.</p>
+          <p class="actions"><a class="button primary" href="https://www.palkhiyatra.org/" target="_blank" rel="noopener">Visit palkhiyatra.org</a></p>
+        </div>
+      </section>
+
+      <section class="window" id="app-services" data-app="services" data-title="Services" tabindex="-1" aria-labelledby="t-services">
+        <header class="titlebar">
+          <button class="close" type="button" aria-label="Close Services"></button>
+          <button class="zoom" type="button" aria-label="Maximise Services"></button>
+          <h2 id="t-services">services.sh</h2>
+        </header>
+        <div class="content">
+          <h1>Services</h1>
+          <p class="muted">Book through Topmate.</p>
+          <div class="cards three">
+            <a class="card blue" href="https://topmate.io/ss_deshmukh/1191949" target="_blank" rel="noopener">
+              <h4>Quick call</h4>
+              <p>A short conversation to get unstuck or get a second opinion.</p>
+            </a>
+            <a class="card amber" href="https://topmate.io/ss_deshmukh/1192559" target="_blank" rel="noopener">
+              <h4>Project consultation</h4>
+              <p>Web3 and blockchain projects, from architecture to product.</p>
+            </a>
+            <a class="card emerald" href="https://topmate.io/ss_deshmukh/1193920" target="_blank" rel="noopener">
+              <h4>Non-profit consultation</h4>
+              <p>Planning, fundraising and operations for non-profits.</p>
+            </a>
+          </div>
+          <p class="actions"><a class="button primary" href="https://topmate.io/ss_deshmukh" target="_blank" rel="noopener">Schedule a call</a></p>
+        </div>
+      </section>
+
+      <section class="window" id="app-writing" data-app="writing" data-title="Writing" tabindex="-1" aria-labelledby="t-writing">
+        <header class="titlebar">
+          <button class="close" type="button" aria-label="Close Writing"></button>
+          <button class="zoom" type="button" aria-label="Maximise Writing"></button>
+          <h2 id="t-writing">~/novels</h2>
+        </header>
+        <div class="content">
+          <p class="eyebrow">Web novels</p>
+          <h1>Writing</h1>
+          <p class="lede">Ever imagined a story you would love to read but couldn't, because it hasn't been written yet? Me too. So I wrote them myself.</p>
+          <div class="stats">
+            <div><strong>4</strong><span>novels</span></div>
+            <div><strong>92</strong><span>chapters</span></div>
+            <div><strong>100,000</strong><span>readers</span></div>
+            <div><strong>1M</strong><span>views</span></div>
+          </div>
+          <ul class="chips"><li>Sci-fi</li><li>Eastern</li><li>Fantasy</li></ul>
+          <p class="muted">Published on Webnovel.</p>
+        </div>
+      </section>
+
+      <section class="window" id="app-contact" data-app="contact" data-title="Contact" tabindex="-1" aria-labelledby="t-contact">
+        <header class="titlebar">
+          <button class="close" type="button" aria-label="Close Contact"></button>
+          <button class="zoom" type="button" aria-label="Maximise Contact"></button>
+          <h2 id="t-contact">contact.vcf</h2>
+        </header>
+        <div class="content">
+          <h1>Contact</h1>
+          <ul class="contacts">
+            <li><a href="https://www.linkedin.com/in/ss-deshmukh/" target="_blank" rel="noopener"><span>LinkedIn</span><strong>in/ss-deshmukh</strong></a></li>
+            <li><a href="https://github.com/ss-deshmukh" target="_blank" rel="noopener"><span>GitHub</span><strong>ss-deshmukh</strong></a></li>
+            <li><a href="https://topmate.io/ss_deshmukh" target="_blank" rel="noopener"><span>Book a call</span><strong>topmate.io/ss_deshmukh</strong></a></li>
+            <li><a href="https://t.me/ss_deshmukh" target="_blank" rel="noopener"><span>Telegram</span><strong>@ss_deshmukh</strong></a></li>
+            <li><a href="mailto:s.s.deshmukh00@gmail.com"><span>Email</span><strong>s.s.deshmukh00@gmail.com</strong></a></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <nav class="dock" aria-label="Apps">
+      <a href="#about"><svg><use href="#i-about"/></svg><span>About</span></a>
+      <a href="#experience"><svg><use href="#i-experience"/></svg><span>Experience</span></a>
+      <a href="#projects"><svg><use href="#i-projects"/></svg><span>Projects</span></a>
+      <a href="#stack"><svg><use href="#i-stack"/></svg><span>Stack</span></a>
+      <a href="#education"><svg><use href="#i-education"/></svg><span>Education</span></a>
+      <a href="#palkhi-yatra"><svg><use href="#i-palkhi-yatra"/></svg><span>Palkhi Yatra</span></a>
+      <a href="#services"><svg><use href="#i-services"/></svg><span>Services</span></a>
+      <a href="#writing"><svg><use href="#i-writing"/></svg><span>Writing</span></a>
+      <a href="#contact"><svg><use href="#i-contact"/></svg><span>Contact</span></a>
+    </nav>
+  </main>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
