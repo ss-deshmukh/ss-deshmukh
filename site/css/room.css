@@ -47,9 +47,9 @@ html, body {
   padding: 0.5rem 1rem;
   font-size: 0.8rem;
   letter-spacing: 0.08em;
-  color: var(--violet);
+  color: #5dff8e;
   background: rgb(13 13 13 / 0.7);
-  border: 1px solid rgb(167 139 250 / 0.3);
+  border: 1px solid rgb(93 255 142 / 0.3);
   transition: opacity 0.4s;
 }
 
@@ -67,7 +67,7 @@ body:not([data-mode="loading"]) #loader { opacity: 0; pointer-events: none; }
   gap: 0.5rem;
   font-size: 0.75rem;
   background: rgb(13 13 13 / 0.85);
-  border: 1px solid rgb(167 139 250 / 0.4);
+  border: 1px solid rgb(93 255 142 / 0.4);
 }
 
 #edit-panel p { margin: 0; }
@@ -89,48 +89,30 @@ body:not([data-mode="loading"]) #loader { opacity: 0; pointer-events: none; }
 
 #hud > * { pointer-events: auto; }
 
-.hud-brand { display: grid; gap: 0.15rem; pointer-events: none !important; }
+.hud-brand {
+  display: grid;
+  gap: 0.15rem;
+  padding: 0.55rem 0.85rem;
+  text-shadow: none;
+  background: rgb(0 0 0 / 0.88);
+  border: 1px solid rgb(255 255 255 / 0.14);
+  pointer-events: none !important;
+}
+
 .hud-brand strong { font-size: 1.05rem; letter-spacing: 0.04em; }
 .hud-brand span { font-size: 0.74rem; color: #b9c5d2; }
 
-.hud-menu { position: relative; font-size: 0.8rem; }
-
-.hud-menu summary {
+.hud-menu {
   padding: 0.45rem 0.9rem;
-  cursor: pointer;
-  list-style: none;
-  background: rgb(13 13 13 / 0.6);
-  border: 1px solid rgb(255 255 255 / 0.2);
-  border-radius: 0.5rem;
-  backdrop-filter: blur(8px);
-}
-
-.hud-menu summary::-webkit-details-marker { display: none; }
-.hud-menu summary:hover,
-.hud-menu[open] summary { border-color: #38bdf8; color: #38bdf8; }
-
-.hud-menu nav {
-  position: absolute;
-  right: 0;
-  top: calc(100% + 0.4rem);
-  display: grid;
-  min-width: 11rem;
-  padding: 0.35rem;
-  text-shadow: none;
-  background: rgb(13 13 13 / 0.9);
-  border: 1px solid rgb(255 255 255 / 0.15);
-  border-radius: 0.6rem;
-  backdrop-filter: blur(8px);
-}
-
-.hud-menu a {
-  padding: 0.45rem 0.7rem;
+  font-size: 0.8rem;
   color: var(--fg);
   text-decoration: none;
-  border-radius: 0.35rem;
+  text-shadow: none;
+  background: rgb(0 0 0 / 0.88);
+  border: 1px solid rgb(255 255 255 / 0.2);
 }
 
-.hud-menu a:hover { color: #04121d; background: #38bdf8; }
+.hud-menu:hover { border-color: #5dff8e; color: #5dff8e; }
 
 .hud-hint {
   position: absolute;

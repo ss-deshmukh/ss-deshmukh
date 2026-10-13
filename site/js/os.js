@@ -17,8 +17,10 @@ export function createOS() {
   const os = {
     apps: [...windows.keys()],
     visible: false,
-    // Called when the user closes or switches windows; main.js turns it into a hash change.
+    // Called when the user closes or switches windows (null = no window left, just the desktop)
+    // and when they leave the desktop; main.js turns both into hash changes.
     onNavigate: () => {},
+    onExit: () => {},
   };
 
   function tick() {
@@ -127,7 +129,7 @@ export function createOS() {
   window.addEventListener("keydown", (e) => {
     if (e.key !== "Escape" || !os.visible) return;
     if (focused) os.close(focused);
-    else os.onNavigate(null);
+    else os.onExit();
   });
 
   return os;

@@ -8,12 +8,13 @@ const IDLE_AFTER_MS = 4000;
 const DRIFT_SPEED = 0.02;
 const TAP_SLOP = 6;
 const FLY_MS = 1600;
-const SCREEN_LIFT = 0.02;
 const MIN_HFOV = THREE.MathUtils.degToRad(62);
 const MAX_VFOV = 95;
-const IDLE_TINT = 0xaab8c2;
+const IDLE_TINT = 0xb4bfb6;
 const HOVER_TINT = 0xffffff;
 const MONO = 'ui-monospace, "SF Mono", "Fira Code", Menlo, Consolas, monospace';
+const PHOSPHOR = "#5dff8e";
+const PHOSPHOR_DIM = "#3fbf6a";
 
 export async function createRoom(canvas, world, { lowRes = false, drift = true, onProgress, onSelect } = {}) {
   // Splats gain nothing from MSAA, so keep it off.
@@ -159,61 +160,68 @@ function makeScreen(m) {
   texture.anisotropy = 8;
   const mesh = new THREE.Mesh(
     new THREE.PlaneGeometry(m.width, m.height),
-    new THREE.MeshBasicMaterial({ map: texture, color: IDLE_TINT, toneMapped: false }),
+    // Drawn over the splat with no depth test: the screen glass in the splat is a fuzzy
+    // shell that would otherwise bleed over the label up close, and nothing in this
+    // scene ever stands between the viewer and a screen.
+    new THREE.MeshBasicMaterial({ map: texture, color: IDLE_TINT, toneMapped: false, transparent: true, depthTest: false, depthWrite: false }),
   );
+  mesh.renderOrder = 10;
   mesh.position.fromArray(m.position);
   mesh.quaternion.fromArray(m.quaternion);
-  // Sit just in front of the blurry screen baked into the splat.
-  mesh.translateZ(SCREEN_LIFT);
   mesh.userData.id = m.id;
   return mesh;
 }
 
+// A CRT face: phosphor-green text on a dark ground, scanlines, a soft centre glow.
 function drawLabel(label, aspect) {
   const c = document.createElement("canvas");
-  c.width = 1024;
-  c.height = Math.round(1024 / aspect);
+  c.width = aspect >= 1 ? 1024 : Math.round(1024 * aspect);
+  c.height = aspect >= 1 ? Math.round(1024 / aspect) : 1024;
   const g = c.getContext("2d");
   const { width: w, height: h } = c;
+  const base = Math.min(w, h);
+  const pad = base * 0.07;
 
-  const bg = g.createLinearGradient(0, 0, w, h);
-  bg.addColorStop(0, "#07192b");
-  bg.addColorStop(1, "#0e3d5e");
-  g.fillStyle = bg;
+  g.fillStyle = "#03110a";
+  g.fillRect(0, 0, w, h);
+  const glow = g.createRadialGradient(w / 2, h / 2, 0, w / 2, h / 2, Math.max(w, h) * 0.6);
+  glow.addColorStop(0, "rgb(93 255 142 / 0.16)");
+  glow.addColorStop(1, "rgb(93 255 142 / 0)");
+  g.fillStyle = glow;
   g.fillRect(0, 0, w, h);
 
-  const bar = h * 0.13;
-  g.fillStyle = "rgb(255 255 255 / 0.08)";
-  g.fillRect(0, 0, w, bar);
-  ["#f87171", "#fbbf24", "#34d399"].forEach((colour, i) => {
-    g.fillStyle = colour;
-    g.beginPath();
-    g.arc(bar * (0.6 + i * 0.55), bar / 2, bar * 0.16, 0, Math.PI * 2);
-    g.fill();
-  });
+  // Pick a font size, shrinking it until the text fits the given width.
+  const fit = (text, size, maxWidth, weight = 400) => {
+    g.font = `${weight} ${size}px ${MONO}`;
+    size *= Math.min(1, maxWidth / g.measureText(text).width);
+    g.font = `${weight} ${size}px ${MONO}`;
+  };
+
   g.textBaseline = "middle";
-  g.font = `${bar * 0.5}px ${MONO}`;
-  g.fillStyle = "#7dd3fc";
-  g.fillText(`~/${label.toLowerCase().replace(/\s+/g, "-")}`, bar * 2.5, bar / 2);
+  g.textAlign = "left";
+  g.fillStyle = PHOSPHOR;
+  const prompt = `C:\\> RUN ${label.toUpperCase().replace(/\s+/g, "_")}.EXE_`;
+  fit(prompt, base * 0.07, w - pad * 2);
+  g.fillText(prompt, pad, pad * 1.4);
 
   const title = label.toUpperCase();
-  let size = h * 0.3;
-  g.font = `700 ${size}px ${MONO}`;
-  size *= Math.min(1, (w * 0.84) / g.measureText(title).width);
-  g.font = `700 ${size}px ${MONO}`;
   g.textAlign = "center";
-  g.fillStyle = "#eaf7ff";
-  g.shadowColor = "#38bdf8";
-  g.shadowBlur = size * 0.35;
-  g.fillText(title, w / 2, h * 0.53);
+  g.shadowColor = PHOSPHOR;
+  g.shadowBlur = base * 0.08;
+  g.fillStyle = "#c9ffd9";
+  fit(title, base * 0.3, w * 0.84, 700);
+  g.fillText(title, w / 2, h * 0.5);
   g.shadowBlur = 0;
 
-  g.font = `${h * 0.075}px ${MONO}`;
-  g.fillStyle = "#7dd3fc";
-  g.fillText("▸ click to open", w / 2, h * 0.82);
+  const hint = "[ CLICK TO OPEN ]";
+  g.fillStyle = PHOSPHOR_DIM;
+  fit(hint, base * 0.075, w * 0.84);
+  g.fillText(hint, w / 2, h - pad * 1.6);
 
-  g.strokeStyle = "#38bdf8";
-  g.lineWidth = h * 0.014;
+  g.fillStyle = "rgb(0 0 0 / 0.28)";
+  for (let y = 0; y < h; y += 4) g.fillRect(0, y, w, 2);
+  g.strokeStyle = "rgb(93 255 142 / 0.45)";
+  g.lineWidth = base * 0.012;
   g.strokeRect(g.lineWidth / 2, g.lineWidth / 2, w - g.lineWidth, h - g.lineWidth);
   return c;
 }
@@ -269,7 +277,7 @@ function createLookControls(el, start, { drift, onHover, onTap }) {
 
   state.update = (dt) => {
     if (drift && !dragging && performance.now() - lastInput > IDLE_AFTER_MS) {
-      target.yaw += DRIFT_SPEED * dt;
+      target.yaw -= DRIFT_SPEED * dt;
     }
     const k = 1 - Math.exp(-DAMPING * dt);
     state.yaw += (target.yaw - state.yaw) * k;

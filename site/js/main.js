@@ -2,9 +2,10 @@ import { createOS } from "./os.js";
 
 const params = new URLSearchParams(location.search);
 const pct = document.getElementById("loader-pct");
-const hudMenu = document.querySelector(".hud-menu");
 const os = createOS();
 const apps = new Set(os.apps);
+// The bare desktop. Also the id of the one screen in the room, which is how you get there.
+const DESKTOP = "menu";
 let room = null;
 
 function wantsFallback() {
@@ -40,12 +41,12 @@ function wantsLowRes() {
 const mode = () => document.body.dataset.mode;
 const setMode = (value) => (document.body.dataset.mode = value);
 
-function currentApp() {
+function currentTarget() {
   const id = decodeURIComponent(location.hash.slice(1));
-  return apps.has(id) ? id : null;
+  return apps.has(id) || id === DESKTOP ? id : null;
 }
 
-// The hash is the single source of truth: #app means that app is open in the OS, no hash means the room.
+// The hash is the single source of truth: #menu is the desktop, #app is that app open on it, no hash is the room.
 // Changes are applied one at a time so a flight always finishes before the next one starts.
 let queue = Promise.resolve();
 function route() {
@@ -53,17 +54,20 @@ function route() {
 }
 
 async function applyRoute() {
-  const app = currentApp();
-  hudMenu.open = false;
-  if (app) {
-    if (os.visible) return os.open(app);
-    if (room) {
-      await room.flyTo(app);
-      room.setPaused(true);
+  const target = currentTarget();
+  if (target) {
+    const app = target === DESKTOP ? null : target;
+    if (!os.visible) {
+      if (room) {
+        await room.flyTo(DESKTOP);
+        room.setPaused(true);
+      }
+      const shown = os.show({ animate: mode() !== "fallback" });
+      if (app) os.open(app);
+      await shown;
+    } else if (app) {
+      os.open(app);
     }
-    const shown = os.show({ animate: mode() !== "fallback" });
-    os.open(app);
-    await shown;
   } else {
     // "Exit to room" is a plain href="#"; tidy the leftover fragment.
     if (location.href.endsWith("#")) history.replaceState(null, "", location.pathname + location.search);
@@ -77,10 +81,12 @@ async function applyRoute() {
 }
 
 os.onNavigate = (id, { quiet = false } = {}) => {
-  const url = id ? `#${id}` : location.pathname + location.search;
-  if (quiet) return history.replaceState(null, "", url);
-  if (id) return (location.hash = id);
-  history.pushState(null, "", url);
+  if (quiet) return history.replaceState(null, "", `#${id}`);
+  location.hash = id ?? DESKTOP;
+};
+
+os.onExit = () => {
+  history.pushState(null, "", location.pathname + location.search);
   route();
 };
 
@@ -88,7 +94,7 @@ window.addEventListener("hashchange", route);
 
 function enterFallback() {
   setMode("fallback");
-  if (!currentApp()) history.replaceState(null, "", "#about");
+  if (!currentTarget()) history.replaceState(null, "", "#about");
   route();
 }
 
@@ -115,7 +121,7 @@ async function bootRoom() {
   if (params.has("debug")) window.__room = room;
   if (editing) {
     const { startEdit } = await import("./edit.js");
-    const list = os.apps.map((id) => ({ id, label: document.getElementById(`app-${id}`).dataset.title }));
+    const list = [{ id: DESKTOP, label: "Menu" }];
     window.__edit = startEdit(room, world, list);
   }
 }
